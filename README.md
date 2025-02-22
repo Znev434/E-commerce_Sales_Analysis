@@ -1,46 +1,47 @@
-# 📊 E-commerce Sales Analysis
+# E-commerce Sales Analysis
 
-## 📌 Opis projektu
-Ten projekt analizuje dane sprzedaży e-commerce w celu zrozumienia trendów, najlepiej sprzedających się produktów i segmentacji klientów.
+## 📌 Project Description
+This project analyzes e-commerce sales data to identify customer purchasing trends. The analysis is conducted using Python and libraries such as Pandas, Matplotlib, and SQL.
 
-### **Cele analizy:**
-✔ Sprawdzenie trendów sprzedaży w czasie  
-✔ Identyfikacja najlepiej sprzedających się produktów  
-✔ Analiza wpływu rabatów na zysk  
-✔ Segmentacja klientów według ich wartości  
+## 🔧 Technologies
+- Python 3.x
+- Pandas
+- SQL
+- Matplotlib / Seaborn (data visualization)
+- Jupyter Notebook
 
----
+## 📂 Directory Structure
+```
+E-commerce_Sales_Analysis/
+│-- data/             # Input data files
+│-- notebooks/        # Jupyter notebooks with data analysis
+│-- scripts/          # Python scripts for data processing
+│-- README.md         # Project documentation
+```
 
-## 📂 Struktura projektu
-Projekt zawiera następujące pliki i foldery:
+## 🚀 Running the Project
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Znev434/E-commerce_Sales_Analysis.git
+   cd E-commerce_Sales_Analysis
+   ```
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run Jupyter Notebook**
+   ```bash
+   jupyter notebook
+   ```
 
-- **data/** – Folder zawierający plik CSV z danymi sprzedażowymi.
-- **notebooks/** – Folder na analizy i skrypty w Jupyter Notebook.
-- **visuals/** – Folder, gdzie zapisujemy wykresy i analizy wizualne.
-- **main.py** – Główny skrypt Pythona, który wykonuje całą analizę.
-- **README.md** – Dokumentacja projektu (ten plik).
-- **queries.sql** – Zapytania SQL do analizy danych sprzedażowych.
+## 📊 Features
+- Sales data analysis
+- Identification of top-selling products
+- Seasonal sales trend analysis
+- Customer segmentation
 
----
+## 🤝 Contribution
+If you would like to contribute to the project, open an issue or submit a pull request. All suggestions are welcome!
 
-## 📈 Wizualizacje
-Projekt generuje następujące wykresy analityczne:
-
-- 📉 **Trend sprzedaży w czasie** – jak zmienia się sprzedaż na przestrzeni miesięcy.
-- 📊 **TOP 10 najlepiej sprzedających się produktów** – które produkty generują największą sprzedaż.
-- 🏆 **TOP 10 klientów** – którzy klienci kupują najwięcej.
-- 🔍 **Wpływ rabatów na zysk** – czy większy rabat oznacza większy zysk?
-- 🎯 **Segmentacja klientów** – podział klientów według wartości zamówień.
-
----
-
-## 🛠 Wykorzystane technologie
-Projekt został stworzony z wykorzystaniem:
-
-- **Python**: Pandas, NumPy, Matplotlib, Seaborn
-- **SQL**: SQLite – analiza danych sprzedażowych
-
----
-
-## ✨ Autor
-[Michał Wenz](https://github.com/Znev434)
+## 📜 License
+This project is available under the MIT license.
